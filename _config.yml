@@ -102,4 +102,6 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'aws-s3'
+  region: ap-northeast-1
+  bucket: hexo-archive-20220213
